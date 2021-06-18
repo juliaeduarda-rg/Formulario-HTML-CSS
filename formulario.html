@@ -18,12 +18,11 @@
         <fieldset class="grupo">
             <div class="campo">
                 <label for="nome"><strong>Nome</strong></label>
-                <input type="text" name="nome" id="nome" required>
+                <input type="text" name="nome" class="nome" required>
             </div>
             <div class="campo">
                 <label for="sobrenome"><strong>Sobrenome</strong></label>
-                <input type="text" name="sobrenome" id="sobrenome" required>
-            </div>
+                <input type="text" name="sobrenome" class="nome sobrenome" required> <!-- Adicionei 2 classes. A classe nome é a GENERALIZADORA, enquanto que, a classe sobrenome é a classe modificadora. Só fiz isso para poder remover o outline sem precisar escrever muito no CSS. -->
         </fieldset> 
             <div class="campo">
                 <label><strong>De qual lado da aplicação você desenvolve?</strong></label>
@@ -61,7 +60,7 @@
             <div class="campo">
                 <br>
                 <label></label><strong>Conte um pouco da sua experiência:</strong></label>
-                <textarea raw="6" style="width: 26em" nome="experiencia" id="experiencia"></textarea>
+                <textarea id="experiencia"></textarea>
             </div>
             <button type="submit" class="botao">Concluído</button>
         </fieldset>
