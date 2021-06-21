@@ -1,0 +1,113 @@
+#title{
+    color: #380B61;
+    margin-left: 10%;
+    margin-top: 10%;
+    padding-left: 10%;
+}
+.fundo{
+    width: 40%;
+    background-color: white;
+    border-radius: 5%;
+    margin-top: 3%;
+    padding: 6px 0% 3% 5%; /* Simplifiquei o padding de várias linhas em uma linha | ORDEM: padding-top - padding-right - padding-bottom - padding-left */
+    top: 80%;
+    left: 50%;
+    justify-content: center;
+    justify-items: center;
+}
+
+#subtitulo{
+    color: #380B61;
+    margin: 3% 0 0 13%; /* Simplifiquei o margin | ORDEM: margin-top - margin-right - margin-bottom - margim-left */
+    padding-left: 12%;
+}
+
+#check {
+    display: inline-block;
+}
+
+fieldset{
+    border: 0;
+}
+
+body{
+    background: linear-gradient(to left, rgb(140, 0, 255),#360353);
+    font-size: 1em;
+    color: #59429d;
+    margin: 2% 0 0 36%;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    border: rgb(159, 123, 224);
+}
+
+input, select, textarea,button{
+    font-size: 1em;
+    color: #59429d;
+    border-radius: 5px;
+}
+.grupo:before, .grupo:after {
+    display: table;
+}
+
+.grupo:after {
+    clear: both;
+}
+
+.campo {
+    margin-bottom: 1em;
+}
+.campo label{
+    margin-bottom: 0.2em;
+    color: #59429d;
+    display: block;
+}
+
+fieldset.grupo .campo{
+    float: left;
+    margin-right: 1em;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea{
+    padding: 0.2em;
+    border: 1px solid #59429d;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+}
+
+.campo select option{
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus{
+    background: #E0E0F8;
+}
+
+.botao{
+    font-size:1.2em;
+    background: #59429d;
+    border: 0;
+    margin: 2% 0 1em 50%; /* Simplifiquei o margin | ORDEM: margin-top - margin-right - margin-bottom - margim-left */
+    color: #ffffff;
+    padding:0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    transform: translate(-50%, -50%);
+}
+
+.botao:hover{
+    background: #CCBBFF;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+#experiencia {
+    width: 85%; /* Defini a largura da TEXTAREA pelo CSS, é o mais recomendado */
+    height: 80px; /* Defini a altura da TEXTAREA pelo CSS, é o mais recomendado */
+    resize: none; /* Removi a possibilidade do usuário alterar o tamanho da TEXTAREA direto pelo navegador */
+    outline: none; /* Removi o OUTLINE - Linha preta que surge quando você clica no TEXTAREA */
+}
+
+.nome {
+    outline: none; /* Removi o OUTLINE - Linha preta que surge quando você clica */
+}
