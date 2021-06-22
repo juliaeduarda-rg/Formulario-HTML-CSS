@@ -1,0 +1,8 @@
+/* Aplicando a estratégia de Cross-browser */
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: sans-serif; /* Apliquei a fonte para todo documento, já que você estava utilizando ela como padrão. Isso evita a repetição do font-family.  */
+}
